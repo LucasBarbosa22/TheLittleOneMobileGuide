@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagebg1"
+    tools:context=".HistoriaAct">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="230dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/texthistoria" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="321dp"
+        android:layout_height="407dp"
+        android:layout_marginTop="35dp"
+        android:lineSpacingExtra="2sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Em ''The Little One'', o protagonista acorda em seu quarto e descobre que foi inexplicavelmente encolhido por um artefato mágico. Para voltar ao tamanho normal, ele deve encontrar peças de um quebra-cabeça especial. \n\n
+Ele ganha uma nova perspectiva sobre seu quarto, agora enorme e cheio de obstáculos, e deve usar e desenvolver suas habilidades de escalada e também a criatividade para alcançar os itens. \n\n
+Em seu quarto ele tem a tarefa de descobrir a localização dos fragmentos e como os alcançá-los, e por causa de sua pequena estatura logo perceberá que certos conhecimentos sobre seu lugar favorito serão postos à prova... " />
+
+    <Button
+        android:id="@+id/voltar"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="150dp"
+        android:layout_height="54dp"
+        android:background="@drawable/colorbutton"
+        android:fontFamily="@font/alata"
+        android:text="voltar"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
