@@ -19,15 +19,14 @@
             android:orientation="vertical"
             tools:ignore="UseCompoundDrawables">
 
-
             <ImageView
                 android:id="@+id/imageView1"
                 android:layout_width="330dp"
                 android:layout_height="60dp"
-                android:layout_weight="1"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="65dp"
                 android:layout_marginRight="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_weight="1"
                 app:srcCompat="@drawable/texteastereggs" />
 
             <ImageView
