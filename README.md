@@ -36,3 +36,6 @@ O Projeto Mobile visa proporcionar um completo do nosso jogo para os jogadores, 
   <h1>GitHub do Projeto</h1> 
  <p>Por fim, o jogador terá acesso ao link do repositório do projeto no GitHub. Lá, ele poderá encontrar mais detalhes sobre o desenvolvimento do jogo.</p>
 </div> <br></br>
+
+[Assista ao Vídeo de Demonstração](https://youtube.com/shorts/oRIO3kysYlw?feature=share)
+
